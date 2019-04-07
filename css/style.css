@@ -6,6 +6,7 @@
 
 html, body{
   height: 100%;
+  overflow: hidden;
 }
 
 .container-fluid.h-100{
@@ -84,4 +85,12 @@ html, body{
   color: darkgray;
   text-decoration: none;
   text-align: right;
+}
+
+.h-25px{
+  height: 25px !important;
+}
+
+.singup{
+  height: 500px;
 }
