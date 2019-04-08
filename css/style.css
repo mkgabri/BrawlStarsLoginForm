@@ -23,7 +23,7 @@ html, body{
   height: 400px;
   padding: 50px 30px;
   position: absolute;
-  border-radius: 3%;
+  border-radius: 2%;
   color: #ffffff;
   background-color: rgba(0,0,0,.8);
 }
@@ -56,7 +56,8 @@ html, body{
 }
 
 .form-box input[type="text"],
-.form-box input[type="password"]{
+.form-box input[type="password"],
+.form-box input[type="email"]{
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
@@ -87,10 +88,23 @@ html, body{
   text-align: right;
 }
 
+.form-box a:hover{
+  font size: 12px;
+  color: white;
+}
+
 .h-25px{
   height: 25px !important;
 }
 
 .singup{
   height: 500px;
+}
+
+.lostPass{
+  height: 295px;
+}
+
+#recovery{
+  background: url(http://www.psyop.com/images/pics/1536/19702_b5qc89_sc_bs_presspack_cinematicstill_02.jpg) no-repeat center top;
 }
